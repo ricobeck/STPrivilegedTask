@@ -27,10 +27,18 @@
  # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+
 #import <Cocoa/Cocoa.h>
 #import <Carbon/Carbon.h>
 #import <Security/Authorization.h>
 #import <Security/AuthorizationTags.h>
+
+
+FOUNDATION_EXPORT double STPrivilegedTaskVersionNumber;
+
+//! Project version string for STPrivilegedTask.
+FOUNDATION_EXPORT const unsigned char STPrivilegedTaskVersionString[];
+
 
 #define STPrivilegedTaskDidTerminateNotification @"STPrivilegedTaskDidTerminateNotification"
 //#define TMP_STDERR_TEMPLATE @".authStderr.XXXXXX"
